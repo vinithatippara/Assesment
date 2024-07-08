@@ -1,0 +1,86 @@
+Task 1 - Manual Testing Questions - Answers
+
+
+
+1. List of scenarios for the login screen
+
+Scenarios:
+Valid username and password.
+Invalid username and valid password.
+Valid username and invalid password.
+Invalid username and invalid password.
+Blank username and/or password.
+
+2. Below is a simple test case that I will give to another tester to execute.
+
+Title: Verify login with valid username and password.
+Preconditions: User is on the login screen.
+
+Test Steps:
+Enter valid username.
+Enter valid password.
+Click the login button.
+Expected Result: User should be logged in successfully and redirected to the homepage.
+
+3. Documenting a bug
+
+Title: Login failure with correct credentials.
+Description: An error message "An error occurred" appears when attempting to log in with the correct username and password.
+
+Steps to Reproduce:
+Navigate to the login screen.
+Enter valid username and password.
+Click the login button.
+
+Expected Result: User should be logged in successfully.
+
+Actual Result: Error message "An error occurred" is displayed.
+
+Severity: High
+
+Priority: High
+
+Environment: (Specify the environment, e.g., OS, browser version)
+
+Attachments: (Include screenshots or logs if applicable)
+
+
+4. Technique to test without focusing on internal workings
+Answer: Black-box testing.
+
+5: Technique to test focusing on internal workings
+Answer: White-box testing.
+
+6: Boundary value analysis inputs for a numeric text field
+Boundary Values:
+Just below the lower boundary: -1
+At the lower boundary: 0
+Just above the lower boundary: 1
+Just below the upper boundary: 99
+At the upper boundary: 100
+Just above the upper boundary: 101
+
+7: Testing technique to think outside the box
+Answer: Exploratory testing.
+
+8: Reviewing documents without executing code
+Answer: Static testing.
+
+9: Testing involving executing the code
+Answer: Dynamic testing.
+
+10: Different test levels
+Answer: Unit testing, integration testing, system testing, and acceptance testing.
+
+
+11: Initial round of testing after a build
+Answer: Smoke testing.
+
+
+12: Testing evaluating speed, responsiveness, stability, and scalability
+Answer: Performance testing.
+
+
+13: Testing type for repetitive tests that don't change behavior
+Answer: Regression testing.
+
